@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="../JS/app.js"></script>
+    <link rel="stylesheet" href="/CSS/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Randomizer</title>
+</head>
+<body>
+    <main>
+        <img class="mainImg" src="/ASSETS/sort 1.png" alt="">
+    
+        <section class="inputs">
+        <input type="number" name="number1" id="firstDigit" placeholder="Min Value"> 
+        <input type="number" name="number2" id="secondDigit" placeholder="Max Value">
+        </section>
+
+        <section class="actionButton"><button class="mainButton" onclick="genNumber()" >Result</button></section>
+    </main>
+
+
+        
+    <section></section>
+
+    <section class="popup" id="popup">
+        <h2 id="resultNumber">Your Number</h2>
+        <p >Here is your Number!!!</p>
+        <button onclick="closePopup()">Ok</button>
+    </section>
+    </body>
+</html>
